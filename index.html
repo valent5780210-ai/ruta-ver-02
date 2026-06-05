@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ruta Verde transforma buses en alojamientos únicos para turismo, glamping y rentas cortas en Colombia.">
+  <meta name="description" content="Ruta Verde transforma estructuras móviles en alojamientos únicos para turismo, glamping e inversión en Colombia.">
   <title>Ruta Verde — Tiny Bus</title>
 
 
@@ -447,14 +447,18 @@
 
     /* ─── FOOTER ─────────────────────────────────────────── */
     footer {
-      background:var(--darker); padding:44px 80px;
-      display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:20px;
+      background:var(--darker); padding:56px 80px;
+      display:flex; flex-direction:column; align-items:center; gap:28px;
+      text-align:center;
     }
     footer img { height:26px; opacity:.55; }
-    .ft-links { display:flex; gap:32px; list-style:none; }
+    .ft-links { display:flex; gap:32px; list-style:none; flex-wrap:wrap; justify-content:center; }
     .ft-links a { font-family:var(--f-body); font-size:14px; font-weight:700; letter-spacing:.18em; text-transform:uppercase; color:rgba(235,234,226,.28); transition:color .2s; }
     .ft-links a:hover { color:var(--accent); }
     footer p { font-family:var(--f-light); font-size:17px; color:rgba(235,234,226,.25); }
+    .ft-legal { display:flex; gap:24px; list-style:none; flex-wrap:wrap; justify-content:center; }
+    .ft-legal a { font-family:var(--f-light); font-size:13px; color:rgba(235,234,226,.22); transition:color .2s; }
+    .ft-legal a:hover { color:var(--accent); }
 
     /* ─── RESPONSIVE ─────────────────────────────────────── */
     @media (max-width:1100px) {
@@ -523,7 +527,7 @@
     <div class="hero-content" id="hero-content">
       <span class="hero-eyebrow">Tiny Bus · Colombia</span>
       <h1 class="hero-title" id="hero-title">Invierte de una manera diferente</h1>
-      <p class="hero-sub">Transformamos buses en alojamientos únicos, diseñados para turismo, descanso y rentas cortas.</p>
+      <p class="hero-sub">Transformamos estructuras móviles en alojamientos únicos, diseñados para descanso, turismo e inversión.</p>
       <a href="#contacto" class="btn-outline">
         Solicitar información
         <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -547,8 +551,8 @@
   </div>
   <div class="about-text">
     <span class="s-label lbl-mid">¿Qué es Ruta Verde?</span>
-    <h2>Un bus convertido en alojamiento de lujo</h2>
-    <p>Ruta Verde transforma buses desde cero en alojamientos completamente equipados. Desde la estructura hasta el último detalle de diseño, cada proyecto nace con un propósito claro: vivir, descansar y generar ingresos.</p>
+    <h2>Una estructura móvil convertida en alojamiento único</h2>
+    <p>Ruta Verde transforma estructuras móviles desde cero. Desde la estructura hasta el último detalle de diseño, cada proyecto nace con un propósito claro: vivir, descansar y generar ingresos.</p>
     <p>Una alternativa innovadora para quienes buscan invertir en hospedaje turístico, glamping o una segunda vivienda fuera de lo ordinario, sin renunciar al confort de un espacio bien diseñado.</p>
     <div class="about-tags">
       <span class="tag">Glamping</span>
@@ -570,7 +574,7 @@
       <h2>Todo lo que incluye<br>tu <em>Tiny Bus</em></h2>
     </div>
     <div class="sec-head-right">
-      <p>Cada espacio diseñado para brindar comodidad total, listo para habitar o rentabilizar desde el primer día.</p>
+      <p>Cada espacio diseñado para brindar comodidad total. Listo para dotar y rentabilizar según tu estilo de vida.</p>
       <div class="car-nav">
         <button class="car-btn" id="car-prev" disabled aria-label="Anterior">
           <svg viewBox="0 0 24 24" fill="none"><path d="M19 12H5M12 5l-7 7 7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -588,8 +592,8 @@
       <div class="amenity-photo"><img src="Ruta verde-21.jpg" alt="Cocina equipada Tiny Bus" loading="lazy" decoding="async"></div>
       <div class="amenity-body">
         <div class="amenity-icon"><svg viewBox="0 0 48 48" fill="none"><rect x="6" y="10" width="36" height="28" rx="1" stroke="currentColor" stroke-width="2"/><path d="M6 20h36M18 10v10" stroke="currentColor" stroke-width="2"/><circle cx="32" cy="15" r="2" fill="currentColor"/></svg></div>
-        <h3>Cocina Equipada</h3>
-        <p>Cocina completa con isla en madera, estufa, horno y todo lo que necesitas para preparar tus comidas.</p>
+        <h3>Cocina Funcional</h3>
+        <p>Cocina completa con isla en madera, mesón en piedra sinterizada y estufa.</p>
       </div>
     </div>
 
@@ -597,8 +601,8 @@
       <div class="amenity-photo"><img src="Ruta verde-50.jpg" alt="Sala de estar Tiny Bus" loading="lazy" decoding="async"></div>
       <div class="amenity-body">
         <div class="amenity-icon"><svg viewBox="0 0 48 48" fill="none"><rect x="6" y="22" width="36" height="14" rx="3" stroke="currentColor" stroke-width="2"/><path d="M10 22V18a2 2 0 0 1 2-2h24a2 2 0 0 1 2 2v4M12 36v4M36 36v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
-        <h3>Sala</h3>
-        <p>Sofá cómodo, televisor y ventanas grandes con vista al jardín. El espacio ideal para relajarte.</p>
+        <h3>Zona Social</h3>
+        <p>Espacio funcional, con grandes vistas para que lo personalices de acuerdo con tu estilo de vida. Amplias aperturas cruzadas que aumentan la iluminación y la ventilación natural.</p>
       </div>
     </div>
 
@@ -607,7 +611,7 @@
       <div class="amenity-body">
         <div class="amenity-icon"><svg viewBox="0 0 48 48" fill="none"><path d="M6 32V20a2 2 0 0 1 2-2h32a2 2 0 0 1 2 2v12M4 32h40v6H4zM6 32v-4h36v4" stroke="currentColor" stroke-width="2"/></svg></div>
         <h3>Habitación</h3>
-        <p>Cama doble, ropa de cama de calidad y luz cálida. Todo listo para que descanses como mereces.</p>
+        <p>Espacio hasta para una cama King, listo si quieres agregar televisión o simplemente disfrutar de la iluminación natural a tu alrededor. Nuestra iluminación es cálida para invitar al descanso y a disfrutar de los espacios.</p>
       </div>
     </div>
 
@@ -625,7 +629,7 @@
       <div class="amenity-body">
         <div class="amenity-icon"><svg viewBox="0 0 48 48" fill="none"><path d="M8 28h32v6a4 4 0 0 1-4 4H12a4 4 0 0 1-4-4v-6z" stroke="currentColor" stroke-width="2"/><path d="M12 28v-4M16 28v-6M20 28v-4M24 28v-6M28 28v-4M32 28v-6M36 28v-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
         <h3>Jacuzzi</h3>
-        <p>Jacuzzi privado al aire libre incluido en tu Tiny Bus. Perfecto para relajarte y disfrutar del entorno natural.</p>
+        <p>Jacuzzi privado al aire libre con costo adicional. Perfecto para relajarte y disfrutar del entorno natural.</p>
       </div>
     </div>
 
@@ -634,7 +638,7 @@
       <div class="amenity-body">
         <div class="amenity-icon"><svg viewBox="0 0 48 48" fill="none"><rect x="8" y="26" width="32" height="6" stroke="currentColor" stroke-width="2"/><path d="M12 26V16M36 26V16M8 32h32" stroke="currentColor" stroke-width="2"/><path d="M16 16h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
         <h3>Balcón / Terraza</h3>
-        <p>Terraza en madera con vista al jardín para tomar el aire, desayunar o simplemente estar al aire libre.</p>
+        <p>Deck en madera con vista al jardín, con costo adicional. Para tomar el aire, desayunar o simplemente estar al aire libre.</p>
       </div>
     </div>
 
@@ -674,26 +678,26 @@
 <section id="proceso">
   <div class="proceso-head">
     <span class="s-label lbl-mid">Proceso</span>
-    <h2>De bus a alojamiento<br>de lujo</h2>
+    <h2>De estructura móvil<br>a alojamiento único</h2>
     <p>Cada proyecto es construido desde cero. Remodelamos completamente la estructura, diseñamos los espacios, instalamos acabados y equipamiento para entregar una experiencia lista para disfrutar o rentabilizar.</p>
   </div>
 
   <div class="proceso-steps" id="proceso-steps">
     <div class="step">
       <div class="step-img"><img src="Ruta verde-9.jpg" alt="Bus original antes de la transformación" loading="lazy" decoding="async"><div class="step-ov"></div></div>
-      <div class="step-info"><span class="step-num">Paso 01</span><h3>El Bus Original</h3><p>Buscamos y seleccionamos el bus ideal. Lo revisamos por completo antes de empezar cualquier trabajo.</p></div>
+      <div class="step-info"><span class="step-num">Paso 01</span><h3>La Estructura Original</h3><p>Buscamos y seleccionamos la estructura ideal. La revisamos por completo antes de empezar cualquier trabajo.</p></div>
     </div>
     <div class="step">
       <div class="step-img"><img src="Ruta verde-18.jpg" alt="Demolición y proceso de construcción" loading="lazy" decoding="async"><div class="step-ov"></div></div>
-      <div class="step-info"><span class="step-num">Paso 02</span><h3>Demolición y Diseño</h3><p>Sacamos todo el interior y diseñamos desde cero cada rincón del bus según el proyecto.</p></div>
+      <div class="step-info"><span class="step-num">Paso 02</span><h3>Demolición y Diseño</h3><p>Sacamos todo el interior y diseñamos desde cero cada rincón del espacio según el proyecto.</p></div>
     </div>
     <div class="step">
       <div class="step-img"><img src="Ruta verde-45.jpg" alt="Bus terminado en su locación" loading="lazy" decoding="async"><div class="step-ov"></div></div>
-      <div class="step-info"><span class="step-num">Paso 03</span><h3>Construcción e Instalación</h3><p>Instalamos madera, electricidad, agua, mobiliario y todos los detalles que hacen el espacio habitable.</p></div>
+      <div class="step-info"><span class="step-num">Paso 03</span><h3>Construcción e Instalación</h3><p>Instalamos madera, electricidad, agua y todos los detalles que hacen el espacio habitable.</p></div>
     </div>
     <div class="step">
       <div class="step-img"><img src="Ruta verde-52.jpg" alt="Cabina original preservada como sello de identidad" loading="lazy" decoding="async"><div class="step-ov"></div></div>
-      <div class="step-info"><span class="step-num">Paso 04</span><h3>El Resultado Final</h3><p>Tu Tiny Bus listo para usar: un alojamiento único que conserva la esencia del bus con el confort de un hogar.</p></div>
+      <div class="step-info"><span class="step-num">Paso 04</span><h3>El Resultado Final</h3><p>Tu Tiny Bus listo para usar: un alojamiento único que conserva la esencia de la estructura con el confort de un hogar.</p></div>
     </div>
   </div>
 </section>
@@ -737,7 +741,7 @@
   <div class="cta-inner">
     <span class="cta-eyebrow">Tu próxima inversión</span>
     <h2>¿Listo para tener tu<br>propio <em>Tiny Bus</em>?</h2>
-    <p class="cta-sub">Conoce cómo convertir un bus en una experiencia única de hospedaje e inversión.</p>
+    <p class="cta-sub">Conoce cómo convertir una estructura móvil en una experiencia única de hospedaje e inversión.</p>
     <a href="https://wa.me/573001234567" target="_blank" rel="noopener noreferrer" class="btn-wa">
       <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
       Hablar por WhatsApp
@@ -757,6 +761,11 @@
     <li><a href="#contacto">Contacto</a></li>
   </ul>
   <p>© 2025 Ruta Verde. Todos los derechos reservados.</p>
+  <ul class="ft-legal">
+    <li><a href="terminos.html">Términos y Condiciones</a></li>
+    <li><a href="privacidad.html">Política de Privacidad</a></li>
+    <li><a href="descargo.html">Descargo de Responsabilidad</a></li>
+  </ul>
 </footer>
 
 
